@@ -1,4 +1,4 @@
-prompt("programa inicializado")
+alert("programa inicializado")
 let resultado,op,num1,num2;
 let continuar="s"
 while (continuar=="s"||continuar=="S"){
@@ -7,20 +7,20 @@ while (continuar=="s"||continuar=="S"){
     num2 = prompt("Digite mais um numero: ");
     if(op==1){
     resultado=num1+num2;
-    prompt("O seu resultado é",resultado);
+    alert("O seu resultado é",resultado);
     }
     else if(op==2){
     resultado=num1-num2;
-    prompt("O seu resultado é",resultado);
+    alert("O seu resultado é",resultado);
     }
     else if(op==3){
     resultado=num1*num2;
-    prompt("O seu resultado é",resultado);
+    alert("O seu resultado é",resultado);
     }
     else if(op==4){
     resultado=num1/num2;
-    prompt("O seu resultado é",resultado);
+    alert("O seu resultado é",resultado);
     }
     continua = prompt("Deseja continuar(S/N)?")
 }
-prompt("Programa finalizado")
+alert("Programa finalizado")
