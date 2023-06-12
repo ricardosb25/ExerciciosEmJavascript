@@ -1,3 +1,3 @@
 let nome = prompt("Digite seu nome: ");
-prompt("Olá",nome);
+alert("Olá",nome);
 console.log("hello world");
