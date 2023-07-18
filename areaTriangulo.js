@@ -3,7 +3,7 @@ function conta(base,altura){
     return x;
 };
 
-let base = prompt("Digite a base do triangulo: ");
-let altura = prompt("Digite a altura do triangulo: ");
+let base = prompt("Enter the base of the triangle: ");
+let altura = prompt("Enter the height of the triangle: ");
 let area = conta(base,altura);
-alert("A area do triangulo é: "+area);
+alert("The area of ​​the triangle is: "+area);
