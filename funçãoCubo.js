@@ -1,6 +1,6 @@
 function cubo(num){
   return num**3;
 }
-let num = prompt("Digite um numero: ");
+let num = prompt("Enter a number: ");
 let resultado = cubo(num);
-alert("O cubo do seu é: " + resultado);
+alert("Your cube is: " + resultado);
