@@ -1,11 +1,11 @@
-alert('Programa Par ou impar')
-let num = prompt("Digite um numero");
+alert('Even or odd program')
+let num = prompt("Enter a number");
 if(num%2 != 0){
-    alert('O numero '+num+' é impar');
+    alert('The number '+num+' is odd');
 }
 else if(num == 0){
-    alert('O numero escolhido é 0');
+    alert('The chosen number is 0');
 }
 else{
-    alert('O numero '+num+' é par');   
+    alert('The number '+num+' is even');   
 };
