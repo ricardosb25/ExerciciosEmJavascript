@@ -4,7 +4,7 @@ function area(raio){
 function perimetro(raio){
   return y = 2*3.14*raio;
 }
-let raio = prompt("Digite o raio de um círculo: ");
+let raio = prompt("Enter the radius of a circle: ");
 let CA = area(raio);
 let CP = perimetro(raio);
-alert("A area do circulo é:"+CA.toFixed(2)+"\nO perimetro do circulo é: "+CP.toFixed(2));
+alert("The area of ​​the circle is:"+CA.toFixed(2)+"\nThe perimeter of the circle is: "+CP.toFixed(2));
